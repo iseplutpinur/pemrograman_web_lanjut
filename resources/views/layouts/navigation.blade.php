@@ -21,6 +21,11 @@
                         {{ __('List Employee') }}
                     </x-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('employees_livewire')" :active="request()->routeIs('employees_livewire')">
+                        {{ __('List Employee Livewire') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->

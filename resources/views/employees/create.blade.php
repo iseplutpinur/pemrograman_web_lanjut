@@ -10,9 +10,8 @@
       <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
         <div class="p-6 bg-white border-b border-gray-200">
 
-
           <div class="container mx-auto">
-            @if ($errors->any())
+            @iaf ($errors->any())
 
             <div class="mb-3 bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
               <strong>Whoops!</strong> There were some problems with your input.<br><br>
